@@ -5,7 +5,6 @@ def nyc_pigeon_organizer(data)
       pigeon_names.each do |name|
         final_hash[name] ||= {}
         final_hash[name][attribute_name] ||= []
-        final_hash[name][attribute_name].push(stats.to_s)
       end
     end
   end
